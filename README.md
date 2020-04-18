@@ -3,5 +3,6 @@
  
  # Informações 🖖
 ***
+- Versão 1.0
 - [x] Converte no máximo 16 digitos binários.
 
