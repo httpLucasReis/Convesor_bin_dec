@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2dec</title>
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+<body>
+
+    <div></div>
+
+    <section id="intefarce" class="container center" >
+        <div id="cdados">
+            <label for="fbin">Binary Number</label>                                  <!--Quando o input é alimentado-->
+            <input type="number" name="fbin" id="fbin" min="0" max="1" maxlength="16" oninput="MaxLengthCheck(this)"><br>
+            <input type="button" value="Convert" id="bconvert" onclick="bin2dec()">
+        </div>
+
+        <div id="res">
+
+        </div>
+
+    </section>
+
+    <footer class="center">
+      <p> &copy; Manoel Lucas </p>
+    </footer>
+    <script src="_js/index.js"></script>
+</body>
+</html>
