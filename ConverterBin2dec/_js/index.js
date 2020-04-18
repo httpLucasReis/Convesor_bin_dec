@@ -17,8 +17,7 @@ function bin2dec(){
     if(strBin.length == 0){
         alert('Empty input!');
     } else {                                     
-        // Recebe uma string 
-
+      
         let decimal = 0; 
 
         for(let index = strBin.length-1; index >= 0; index--){
@@ -26,7 +25,6 @@ function bin2dec(){
         }
         
         ndec.innerText = `${decimal}`
-
         result.appendChild(ndec);
 
     }
